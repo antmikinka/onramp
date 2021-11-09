@@ -1,0 +1,22 @@
+html, body, div, time, mark, audio, video,
+h1, h2, h3, h4, h5, h6, p, blockquote,details, footer, header, summary
+
+time, mark, audio, video {
+    margin: 10x;
+    padding: 10x;
+    font-size:100%;
+    vertical-align:baseline;
+    background:aquamarine;
+}
+
+body {
+	text-align: center;
+	font: 1em "Proxima Nova", proxima-nova;
+    line-height:1.2;
+}
+
+details,header {
+	font: 1em "Proxima Nova", proxima-nova;
+	line-height:1.2;
+    display: contents;
+}
